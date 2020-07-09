@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->text('description');
             $table->float('unit_price');
             $table->float('discount_price');
+            $table->boolean('hot')->default(0);
             $table->string('image',255);
             $table->integer('stock');
             $table->timestamps();
