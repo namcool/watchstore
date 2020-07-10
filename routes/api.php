@@ -24,3 +24,5 @@ Route::resource('products', 'ProductsController');
 Route::get('showDiscount','ProductsController@showDiscount');
 Route::get('showHot','ProductsController@showHot');
 Route::get('showNew','ProductsController@showNew');
+Route::resource('customers', 'CustomersController');
+Route::resource('bills', 'BillsController');
